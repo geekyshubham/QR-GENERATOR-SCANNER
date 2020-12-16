@@ -8,12 +8,12 @@ A Quick Response code is a two-dimensional pictographic code used for its fast r
 
 ## Modules Used
 
-python-qrcode — Python QR code image generator. Standard installation includes pillow as well for generating images.
-opencv-python — Open-source library for computer vision, machine learning, and image processing. It comes with built-in QRCodeDetector class, which helps to decode QR codes.
-Pyperclip is a cross-platform Python module for copy and paste clipboard functions. It works with Python 2 and 3.
-PyQt5 is a comprehensive set of Python bindings for Qt v5. It is implemented as more than 35 extension modules and enables Python to be used as an alternative application development language to C++ on all supported platforms including iOS and Android.
+- python-qrcode — Python QR code image generator. Standard installation includes pillow as well for generating images.
+- opencv-python — Open-source library for computer vision, machine learning, and image processing. It comes with built-in QRCodeDetector class, which helps to decode QR codes.
+- Pyperclip is a cross-platform Python module for copy and paste clipboard functions. It works with Python 2 and 3.
+- PyQt5 is a comprehensive set of Python bindings for Qt v5. It is implemented as more than 35 extension modules and enables Python to be used as an alternative application development language to C++ on all supported platforms including iOS and Android.
  
-##Features:
+## Features:
 
 - Generate QR code
 - Decode QR code
