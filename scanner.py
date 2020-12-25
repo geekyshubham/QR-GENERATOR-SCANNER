@@ -87,6 +87,8 @@ class MyWidget(QtWidgets.QWidget):
         if retval[-3:] == 'com' or retval[:3]=='www':
             self.openSite(retval)
             print("opensite")
+        elif retval == '' or retval == ' ':
+            print("Invalid QR CODE")
         else:
             self.google(retval)
             print("google")
